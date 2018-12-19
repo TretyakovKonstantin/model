@@ -1,0 +1,52 @@
+<model>
+<mlib:model  xmlns:mlib="http://cis.ifmo.ru/modelation/lib">
+	<mlib:model-name>QNet::QNet</mlib:model-name>
+	<mlib:model-version>257</mlib:model-version>
+	<mlib:model-class>ru.ifmo.cis.education.JQMSNet.lib.QNet</mlib:model-class>
+	<mlib:model-detalization-level>QNet::ClosedNetwork</mlib:model-detalization-level>
+	<mlib:attribute-values>
+		<mlib:attribute name="QNet::CustomersInQueues">3.55572285340967945259</mlib:attribute>
+		<mlib:attribute name="QNet::TimeInNet">22.50260628766900247028</mlib:attribute>
+		<mlib:attribute name="QNet::RoutingTable">[[0,1.0,0],[0.1,0,0.9],[0,1,0]]</mlib:attribute>
+		<mlib:attribute name="QNet::TimeInQueues">16.00260628766900247028</mlib:attribute>
+		<mlib:attribute name="QNet::QueuesCount">2</mlib:attribute>
+		<mlib:attribute name="QNet::CustomersInClosedNet">5</mlib:attribute>
+		<mlib:attribute name="QNet::NetProductivity">0.2221964840908186</mlib:attribute>
+	</mlib:attribute-values>
+	<mlib:submodels>
+		<mlib:submodel-collection>
+			<mlib:model-name>QSM::QSM</mlib:model-name>
+			<mlib:model-version>257</mlib:model-version>
+			<mlib:model-class>ru.ifmo.cis.education.JQMS.lib.QSM</mlib:model-class>
+			<mlib:submodel>
+				<mlib:attribute-values>
+					<mlib:attribute name="QSM::RoutingFactor">10.0</mlib:attribute>
+					<mlib:attribute name="QSM::OverallServiceTime">0.2</mlib:attribute>
+					<mlib:attribute name="QSM::ServerDownTime">0.88890177</mlib:attribute>
+					<mlib:attribute name="QSM::ServerLoad">0.44439298</mlib:attribute>
+					<mlib:attribute name="QSM::ServersCount">4</mlib:attribute>
+					<mlib:attribute name="QSM::TimeInSystem">0.20005212575338000874</mlib:attribute>
+					<mlib:attribute name="QSM::CustomersInQueue">0.00011582159131623048</mlib:attribute>
+					<mlib:attribute name="QSM::CustomersInSystem">0.44450878977295346153</mlib:attribute>
+					<mlib:attribute name="QSM::ServerUtilization">0.111098245</mlib:attribute>
+					<mlib:attribute name="QSM::TimeInQueue">0.00005212575338000874</mlib:attribute>
+				</mlib:attribute-values>
+			</mlib:submodel>
+			<mlib:submodel>
+				<mlib:attribute-values>
+					<mlib:attribute name="QSM::RoutingFactor">9.0</mlib:attribute>
+					<mlib:attribute name="QSM::OverallServiceTime">0.5</mlib:attribute>
+					<mlib:attribute name="QSM::ServerDownTime">0.000115811825</mlib:attribute>
+					<mlib:attribute name="QSM::ServerLoad">0.9998842</mlib:attribute>
+					<mlib:attribute name="QSM::ServersCount">1</mlib:attribute>
+					<mlib:attribute name="QSM::TimeInSystem">2.27800944779280026476</mlib:attribute>
+					<mlib:attribute name="QSM::CustomersInQueue">3.55560703181836322212</mlib:attribute>
+					<mlib:attribute name="QSM::CustomersInSystem">4.555491210227046992</mlib:attribute>
+					<mlib:attribute name="QSM::ServerUtilization">0.9998842</mlib:attribute>
+					<mlib:attribute name="QSM::TimeInQueue">1.77800944779280026476</mlib:attribute>
+				</mlib:attribute-values>
+			</mlib:submodel>
+		</mlib:submodel-collection>
+	</mlib:submodels>
+</mlib:model>
+</model>
